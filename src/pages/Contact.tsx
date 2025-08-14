@@ -59,9 +59,14 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-800">LinkedIn</h3>
-                <p className="text-gray-600">
+                <a 
+                  href="https://www.linkedin.com/in/ay%C3%A7a-badem-ergin-284b45147/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-slate-700 transition-colors duration-200"
+                >
                   https://www.linkedin.com/in/ay%C3%A7a-badem-ergin-284b45147/
-                </p>
+                </a>
               </div>
             </div>
           </div>
@@ -79,7 +84,14 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-800">GitHub</h3>
-                <p className="text-gray-600">https://github.com/aycabadem</p>
+                <a 
+                  href="https://github.com/aycabadem"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-slate-700 transition-colors duration-200"
+                >
+                  https://github.com/aycabadem
+                </a>
               </div>
             </div>
           </div>
